@@ -1,6 +1,8 @@
 # Wanhao_i3_Plus_V1
 All about my 3D Printer
 
+[[/images/Screenshot%202021-01-31%20at%2012.18.29.jpg|ALT TEXT]]
+
 ## Upgrades I did
 * [MK10 All Metal Hotend Kit mit Kühlblock für Wanhao i3](https://www.3djake.ch/de-CH/micro-swiss/mk10-all-metal-hotend-kit-mit-kuehlblock-fuer-wanhao-i3)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/AQL8PS3erqI/0.jpg)](https://www.youtube.com/watch?v=AQL8PS3erqI)
