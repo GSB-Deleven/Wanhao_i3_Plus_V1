@@ -19,7 +19,9 @@ All about my 3D Printer
 
 
 ## Important Links
-* [Quality Guide](https://www.simplify3d.com/support/print-quality-troubleshooting/)
+* Guides
+  * [Duplicator i3 Plus WIKI](https://3dprinterwiki.info/wanhao-duplicator-i3-plus/)
+  * [Quality Guide](https://www.simplify3d.com/support/print-quality-troubleshooting/)
 * Swiss Print Stores
   * https://www.3dware.ch
   * https://www.3djake.ch/de-CH
