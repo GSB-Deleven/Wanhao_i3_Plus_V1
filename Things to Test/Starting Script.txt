@@ -1,0 +1,13 @@
+G28			; Home all axes
+M117 Purge extruder
+G92 E0		 	; Reset extruder
+G1 Z1.0 F3000			; Move z up little to prevent scratching of surface
+G1 X0.1 Y20 Z0.3 F5000.0 		; Move to start-line position
+G1 X0.1 Y100.0 Z0.3 F1500.0 E15	; Draw 1st line
+G1 X0.4 Y100.0 Z0.3 F5000.0		; Move to side a little
+G1 X0.4 Y20 Z0.3 F1500.0 E30 		; Draw 2nd line
+; G1 E27 F1500			; Retract filament 1.5mm
+G92 E0			; Reset extruder
+G1 Z1.0 F3000			; Move z up little to prevent scratching of surface
+M420 S1			; Load Mesh for Bed
+M117 Di3 PLA Profile
