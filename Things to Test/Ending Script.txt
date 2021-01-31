@@ -1,0 +1,55 @@
+M104 S0                      	; Extruder heater off
+M140 S0                       	; Bed heater off
+G91                           	; Relative positioning
+G1 E-1 F300                  	; Retract the filament 1mm
+G1 Z+0.5 E-2 X-20 Y-20 F6000  	; Move Z up and retract filament 2mm
+M106 S255                     	; Fan at 100% to cool nozzle
+G90                          	; Absolute positioning
+G28 X0                     	; Home X
+G28 Y0		; Home Y
+G1 Y180                       	; Move bed forward 180mm
+M84                           	; Steppers off
+
+M117 That's All Folks!
+
+;Play Imperial March
+M300 S392 P436
+M300 S0 P109
+M300 S392 P436
+M300 S0 P109
+M300 S392 P436
+M300 S0 P109
+M300 S311 P326
+M300 S0 P81
+M300 S466 P108
+M300 S0 P27
+M300 S392 P436
+M300 S0 P109
+M300 S311 P326
+M300 S0 P81
+M300 S466 P108
+M300 S0 P27
+M300 S392 P872
+M300 S0 P218
+M300 S587 P436
+M300 S0 P109
+M300 S587 P436
+M300 S0 P109
+M300 S587 P436
+M300 S0 P109
+M300 S622 P326
+M300 S0 P81
+M300 S466 P108
+M300 S0 P27
+M300 S370 P436
+M300 S0 P109
+M300 S311 P326
+M300 S0 P81
+M300 S466 P108
+M300 S0 P27
+M300 S392 P872
+M300 S0 P218
+
+G4 P60000                    	; Wait 2 minutes (120 seconds)
+M106 S0                      	; Fan off
+M117 Ready for the Next!
