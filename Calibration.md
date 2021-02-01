@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=25r-PTVJDjQ&t=9s
 
-M503 response:
+`M503` response:
 ```
 Recv: echo:Steps per unit:
 Recv: echo:  M92 X80.00 Y80.00 Z397.00 E100.00
