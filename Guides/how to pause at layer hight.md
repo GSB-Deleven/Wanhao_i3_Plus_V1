@@ -7,6 +7,6 @@ So it is super easy in Prusa slicer.
 * go to the traget layer 
 * rightclick on the layer selector
 * add custom gcode
-![](https://raw.githubusercontent.com/GSB-Deleven/Wanhao_i3_Plus_V1/main/images/Screenshot%202021-02-01%20at%2021.28.59.jpg)
+![](https://github.com/GSB-Deleven/Wanhao_i3_Plus_V1/blob/main/images/PrusaSlicer_Pause.jpg?raw=true)
 * type in `@pause`
 * it will pause now on this layer
