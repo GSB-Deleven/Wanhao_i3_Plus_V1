@@ -10,3 +10,12 @@ So it is super easy in Prusa slicer.
 ![](https://github.com/GSB-Deleven/Wanhao_i3_Plus_V1/blob/main/images/PrusaSlicer_Pause.jpg?raw=true)
 * type in `@pause`
 * it will pause now on this layer
+
+---
+
+Same thing if you want to do custom Temperature or so at a layer hight (typical for Temp towers)  
+  
+There you just insert `M104 S225` at the desired layer
+* `M104` is the change Temperature command
+* `S225` is the Temperature it should change
+![](https://raw.githubusercontent.com/GSB-Deleven/Wanhao_i3_Plus_V1/main/images/Temp%20Tower_Gcode.jpg)
